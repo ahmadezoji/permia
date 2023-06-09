@@ -22,19 +22,22 @@ function App() {
           👇🏽ثبت سفارش و پاسخگویی 👇🏽
 
         </p>
+        <p>کانال های زیر را دنبال کنید</p>
         <div className="Footer-container">
           <a href='https://t.me/permiaonlineshop/'>
             <img src={logoTelegram} className="Link-logo" alt="telegram" />
           </a>
           <a href='https://www.instagram.com/permia_shop/'>
-            <img src={logoInstagram} className="Link-logo" alt="instagram" />
+            <img src={logoInstagram} className="Link-logo" alt="whatsapp" />
           </a>
-          <a href='https://www.instagram.com/permia_shop/'>
-            <img src={logoWhatsapp} className="Link-logo" alt="whatsapp" />
-          </a>
-
         </div>
 
+        <div className="Direct_chat_whataspp" onClick={() => window.location.href = 'https://wa.me/989912438641'}>
+          <p className="Chat_title">سفارش آنلاین از طریق واتس اپ</p>
+        </div>
+        <div className="Direct_chat_telegram" onClick={() => window.location.href = 'https://t.me/+989912438641'}>
+          <p className="Chat_title">سفارش آنلاین از طریق تلگرام</p>
+        </div>
       </header>
     </div>
   );

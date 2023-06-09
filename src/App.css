@@ -8,17 +8,43 @@
 }
 .Footer-container{
   display: flex;
-  flex-direction: roe;
+  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  padding: 10%;
+  justify-content: center;
+  width: 50%;
+}
+.Direct_chat_whataspp{
+  margin: 10px;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  border-radius: 20px;
+  background-color: #25D366;
+}
+.Direct_chat_telegram{
+  margin: 10px;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  border-radius: 20px;
+  background-color: #229ED9;
+}
+.Chat_title{
+  color: white;
+  font-size: 90%;
 }
 .Link-logo {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
+  width: 80%;
+  height: 80%;
   margin: 5px;
-  background-color:  'rgba(52, 52, 52, 0.8)';
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,9 +63,12 @@
   padding: 10%;
   font-size: calc(10px + 2vmin);
   color: #67074E;
+  font-family: B-Nazanin;
+
 }
 .App-header-title{
   font-size: 25px;
+  font-weight: bold;
   align-items: center;
   justify-content: flex-start;
 }

@@ -1,6 +1,5 @@
 import logoTelegram from './telegram.svg';
 import logoInstagram from './instagram.svg';
-import logoWhatsapp from './whatsapp.svg';
 import logPng from './logo.png'
 import './App.css';
 

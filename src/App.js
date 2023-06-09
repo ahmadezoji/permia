@@ -12,10 +12,8 @@ function App() {
         <p className="App-header-title">
           آنلاین شاپ پرمیا
         </p>
+        <p>😍حس قشنگ یه خرید عالی😍</p>
         <p>
-
-          😍حس قشنگ یه خرید عالی😍
-
           ثبت سفارش و پاسخگویی از طریق دایرکت،
           واتس اپ و تلگرام 🌸
           لطفا فقط یکجا برای ما پیغام بزارید،
@@ -25,7 +23,7 @@ function App() {
 
         </p>
         <div className="Footer-container">
-          <a href='https://www.instagram.com/permia_shop/'>
+          <a href='https://t.me/permiaonlineshop/'>
             <img src={logoTelegram} className="Link-logo" alt="telegram" />
           </a>
           <a href='https://www.instagram.com/permia_shop/'>
